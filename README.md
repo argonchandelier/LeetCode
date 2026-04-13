@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1975-minimum-distance-to-the-target-element](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/1975-minimum-distance-to-the-target-element) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
 ## Hash Table
