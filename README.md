@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1975-minimum-distance-to-the-target-element](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/1975-minimum-distance-to-the-target-element) |
+| [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
 ## Hash Table
@@ -14,4 +15,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
+## String
+|  |
+| ------- |
+| [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 <!---LeetCode Topics End-->
