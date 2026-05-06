@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
 | [1975-minimum-distance-to-the-target-element](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/1975-minimum-distance-to-the-target-element) |
 | [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 | [3750-closest-equal-element-queries](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/3750-closest-equal-element-queries) |
@@ -31,11 +32,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
 | [4139-minimum-absolute-distance-between-mirror-pairs](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4139-minimum-absolute-distance-between-mirror-pairs) |
 ## Two Pointers
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
 ## Sorting
 |  |
 | ------- |
