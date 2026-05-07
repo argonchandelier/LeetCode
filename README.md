@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/argonchandelier/LeetCode/tree/master/0013-roman-to-integer) |
 | [0380-insert-delete-getrandom-o1](https://github.com/argonchandelier/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [3750-closest-equal-element-queries](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/3750-closest-equal-element-queries) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/argonchandelier/LeetCode/tree/master/0013-roman-to-integer) |
 | [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 ## Binary Search
 |  |
@@ -42,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/argonchandelier/LeetCode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/argonchandelier/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [4139-minimum-absolute-distance-between-mirror-pairs](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4139-minimum-absolute-distance-between-mirror-pairs) |
