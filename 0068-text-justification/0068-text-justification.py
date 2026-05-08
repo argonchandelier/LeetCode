@@ -1,11 +1,11 @@
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         start = 0
-        nc, nw = 0, 0
+        nc, nw = len(words[0]), 1
         lines = []
-        for i, word in enumerate(words):
+        for i, word in enumerate(words[1:], start=1):
             l = len(word)
-            nca = l + (1 if nw > 0 else 0)
+            nca = l + 1
             if maxWidth >= nc+nca:
                 nw += 1
                 nc += nca
