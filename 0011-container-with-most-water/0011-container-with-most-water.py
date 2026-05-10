@@ -4,7 +4,7 @@ class Solution:
         mxl, mxr = height[p1], height[p2]
         mxa = min(mxl, mxr)*(p2-p1)
         mx = max(height)
-        while p1 < p2:
+        while not (mxl == mxr == mx):
             if mxl < mxr:
                 p1 += 1
                 while height[p1] < mxl:
@@ -16,7 +16,5 @@ class Solution:
                     p2 -= 1
                 mxr = height[p2]
             mxa = max(mxa, min(mxl, mxr)*(p2-p1))
-            if mxl == mxr == mx:
-                break
         
         return mxa
