@@ -3,21 +3,19 @@ class Solution:
         m, mm, n = len(words), len(words[0]), len(s)
         mmm = m*mm
         mp = {}
-        #set0 = set()
         res = []
         for i, word in enumerate(words):
             if word in mp:
                 mp[word] += 1
                 continue
             mp[word] = 1
-            #set0.add(word[0])
         
         for offset in range(mm):
             mpNew = {}
             count = 0
             for j in range(offset, n-mm+1, mm):
                 ss = s[j:j+mm]
-                if ss not in mp: # ss[0] not in set0 or 
+                if ss not in mp:
                     mpNew = {}
                     count = 0
                     continue
