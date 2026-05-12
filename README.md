@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/argonchandelier/LeetCode/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/argonchandelier/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/argonchandelier/LeetCode/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/argonchandelier/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/argonchandelier/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/argonchandelier/LeetCode/tree/master/0055-jump-game) |
 | [0068-text-justification](https://github.com/argonchandelier/LeetCode/tree/master/0068-text-justification) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/argonchandelier/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/argonchandelier/LeetCode/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/argonchandelier/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/argonchandelier/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [4139-minimum-absolute-distance-between-mirror-pairs](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4139-minimum-absolute-distance-between-mirror-pairs) |
@@ -161,5 +163,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/argonchandelier/LeetCode/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/argonchandelier/LeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/argonchandelier/LeetCode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
