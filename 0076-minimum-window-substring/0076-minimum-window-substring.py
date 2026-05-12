@@ -9,7 +9,7 @@ class Solution:
 
         smap = defaultdict(int)
         emap = defaultdict(int)
-        excess = 0
+        target = n
         mn = float('inf')
         left = 0
         while s[left] not in tmap:
@@ -19,7 +19,7 @@ class Solution:
         right = left
 
         while left < m:
-            while smap != tmap:
+            while target > 0: #smap != tmap:
                 if right == m:
                     return s[res[0]:res[1]] if mn < float('inf') else ""
                 cr = s[right]
@@ -27,9 +27,9 @@ class Solution:
                     right += 1
                     continue
                 if tmap[cr] == smap[cr]:
-                    excess += 1
                     emap[cr] += 1
                 else:
+                    target -= 1
                     smap[cr] += 1
                 right += 1
             if right-left < mn:
@@ -38,9 +38,9 @@ class Solution:
             cl = s[left]
             if emap[cl] > 0: # The 2nd loop will be skipped next time if this happens
                 emap[cl] -= 1
-                excess -= 1
             else:
                 smap[cl] -= 1
+                target += 1
 
             left += 1
             while left < m and s[left] not in tmap:
