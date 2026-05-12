@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/argonchandelier/LeetCode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/argonchandelier/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/argonchandelier/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0202-happy-number](https://github.com/argonchandelier/LeetCode/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/argonchandelier/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/argonchandelier/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/argonchandelier/LeetCode/tree/master/0290-word-pattern) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/argonchandelier/LeetCode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/argonchandelier/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/argonchandelier/LeetCode/tree/master/0202-happy-number) |
 | [0380-insert-delete-getrandom-o1](https://github.com/argonchandelier/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [4139-minimum-absolute-distance-between-mirror-pairs](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4139-minimum-absolute-distance-between-mirror-pairs) |
 ## Two Pointers
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/argonchandelier/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/argonchandelier/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
+| [0202-happy-number](https://github.com/argonchandelier/LeetCode/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0392-is-subsequence) |
 ## Sorting
 |  |
