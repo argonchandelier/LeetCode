@@ -10,7 +10,6 @@ class Solution:
                 return intervals + [newInterval]
         a = min(n1, intervals[i][0])
         pa = i
-        print(f"{a=}, {pa=}, {i=}, {n2=}")
         while n2 >= intervals[i][0]:
             i += 1
             if i == len(intervals):
