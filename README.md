@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/argonchandelier/LeetCode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/argonchandelier/LeetCode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/argonchandelier/LeetCode/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/argonchandelier/LeetCode/tree/master/0056-merge-intervals) |
 | [0068-text-justification](https://github.com/argonchandelier/LeetCode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/argonchandelier/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0088-merge-sorted-array) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/argonchandelier/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/argonchandelier/LeetCode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/argonchandelier/LeetCode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/argonchandelier/LeetCode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/argonchandelier/LeetCode/tree/master/0274-h-index) |
