@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/argonchandelier/LeetCode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/argonchandelier/LeetCode/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/argonchandelier/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1975-minimum-distance-to-the-target-element](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/1975-minimum-distance-to-the-target-element) |
 | [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 | [3750-closest-equal-element-queries](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/3750-closest-equal-element-queries) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/argonchandelier/LeetCode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/argonchandelier/LeetCode/tree/master/0274-h-index) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/argonchandelier/LeetCode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/argonchandelier/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/argonchandelier/LeetCode/tree/master/0134-gas-station) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Counting Sort
 |  |
 | ------- |
