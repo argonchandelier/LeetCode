@@ -13,4 +13,4 @@ class Solution:
                 continue
             stack.append(int(token))
         
-        return stack[-1]
+        return stack[0]
