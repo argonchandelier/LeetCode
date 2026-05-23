@@ -9,9 +9,7 @@ class Solution:
         def dfs(n1, n2):
             if n1 is None and n2 is None:
                 return True
-            if n1 is None or n2 is None:
-                return False
-            if n1.val != n2.val:
+            if n1 is None or n2 is None or n1.val != n2.val:
                 return False
             
             return dfs(n1.left, n2.left) and dfs(n1.right, n2.right)
