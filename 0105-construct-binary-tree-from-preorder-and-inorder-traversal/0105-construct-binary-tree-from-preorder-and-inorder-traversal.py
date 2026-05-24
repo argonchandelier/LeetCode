@@ -6,7 +6,10 @@
 #         self.right = right
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
-        iomap = {val: i for i, val in enumerate(inorder)}
+        iomap = {}
+        for i, val in enumerate(inorder):
+            iomap[val] = i
+
         self.pi = 0
         def traverse(s, e):
             if e < s:
