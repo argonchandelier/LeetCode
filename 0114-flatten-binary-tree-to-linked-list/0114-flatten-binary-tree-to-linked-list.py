@@ -11,20 +11,17 @@ class Solution:
         """
         if not root:
             return None
-        self.last = None
+        self.last = TreeNode()
         def dfs(node):
-            nxt = None
-            if node.left:
-                dfs(node.left)
-                nxt = node.left
-            if node.right:
-                if not nxt:
-                    nxt = node.right
-                else:
-                    self.last.right = node.right
-                dfs(node.right)
-            node.left = None
-            node.right = nxt
-            if not nxt:
-                self.last = node
+            if node is None:
+                return
+            self.last.left = node
+            self.last = node
+            dfs(node.left)
+            dfs(node.right)
+            node.right = None
+
         dfs(root)
+        head = root
+        while head:
+            head.left, head.right, head = None, head.left, head.left
