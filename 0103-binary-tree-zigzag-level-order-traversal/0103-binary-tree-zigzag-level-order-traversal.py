@@ -21,4 +21,5 @@ class Solution:
                 if node.right:
                     newlayer.append(node.right)
             layer = newlayer
+            
         return res
