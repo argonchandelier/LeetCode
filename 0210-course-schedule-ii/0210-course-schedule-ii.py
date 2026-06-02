@@ -14,7 +14,7 @@ class Solution:
                 continue
             #self.seen[c] = True
 
-            def dfs(cur, i):
+            def dfs(cur):
                 self.path[cur] = True
                 self.seen[cur] = True
                 for nxt in mp[cur]:
@@ -23,14 +23,14 @@ class Solution:
                     if self.seen[nxt] == True:
                         continue
                     
-                    res = dfs(nxt, i)
+                    res = dfs(nxt)
                     if not res:
                         return False
                 self.res.append(cur)
                 self.path[cur] = False
                 return True
                 
-            if not dfs(c, len(self.res)):
+            if not dfs(c):
                 return []
 
         return self.res[::-1]
