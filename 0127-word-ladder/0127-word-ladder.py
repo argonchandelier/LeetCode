@@ -6,13 +6,18 @@ class Solution:
         nwords = len(wordList)
         nletters = len(beginWord)
         seen = [False]*nwords
-        cur = [beginWord]
+        seen2 = [False]*nwords
+        cur = {beginWord}
+        cur2 = {endWord}
         if beginWord in wordList:
             seen[wordList.index(beginWord)] = True
 
         res = 2
-        while cur:
-            nxt = []
+        while cur and cur2:
+            if len(cur) > len(cur2):
+                cur2, cur = cur, cur2
+                seen2, seen = seen, seen2
+            nxt = set()
             for w1 in cur:
                 for i, w2 in enumerate(wordList):
                     if seen[i]:
@@ -25,10 +30,10 @@ class Solution:
                         if off > 1:
                             break
                     else:
-                        if goali == i:
+                        if w2 in cur2:
                             return res
                         seen[i] = True
-                        nxt.append(w2)
+                        nxt.add(w2)
             cur = nxt
             res += 1
         return 0
