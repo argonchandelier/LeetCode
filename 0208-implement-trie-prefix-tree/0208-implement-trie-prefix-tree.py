@@ -1,6 +1,5 @@
 class Node:
-    def __init__(self, c=None):
-        self.c = c
+    def __init__(self):
         self.nexts = {}
 
 class Trie:
@@ -14,7 +13,7 @@ class Trie:
             if c in node.nexts:
                 node = node.nexts[c]
                 continue
-            newnode = Node(c)
+            newnode = Node()
             node.nexts[c] = newnode
             node = newnode
         node.nexts[None] = None
