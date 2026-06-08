@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0772-construct-quad-tree](https://github.com/argonchandelier/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0945-snakes-and-ladders](https://github.com/argonchandelier/LeetCode/tree/master/0945-snakes-and-ladders) |
+| [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1975-minimum-distance-to-the-target-element](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/1975-minimum-distance-to-the-target-element) |
 | [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 | [3750-closest-equal-element-queries](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/3750-closest-equal-element-queries) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/argonchandelier/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/argonchandelier/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0392-is-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0392-is-subsequence) |
+| [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Greedy
 |  |
 | ------- |
@@ -412,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/argonchandelier/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/argonchandelier/LeetCode/tree/master/0148-sort-list) |
 | [0772-construct-quad-tree](https://github.com/argonchandelier/LeetCode/tree/master/0772-construct-quad-tree) |
+| [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -464,4 +467,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/argonchandelier/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+## Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
