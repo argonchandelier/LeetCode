@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/argonchandelier/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/argonchandelier/LeetCode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/argonchandelier/LeetCode/tree/master/0289-game-of-life) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/argonchandelier/LeetCode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0380-insert-delete-getrandom-o1](https://github.com/argonchandelier/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -487,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/argonchandelier/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/argonchandelier/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/argonchandelier/LeetCode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0502-ipo](https://github.com/argonchandelier/LeetCode/tree/master/0502-ipo) |
 ## Queue
 |  |
