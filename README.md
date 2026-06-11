@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0030-substring-with-concatenation-of-all-words](https://github.com/argonchandelier/LeetCode/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0049-group-anagrams](https://github.com/argonchandelier/LeetCode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/argonchandelier/LeetCode/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/argonchandelier/LeetCode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/argonchandelier/LeetCode/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/argonchandelier/LeetCode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/argonchandelier/LeetCode/tree/master/0076-minimum-window-substring) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/argonchandelier/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/argonchandelier/LeetCode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/argonchandelier/LeetCode/tree/master/0048-rotate-image) |
+| [0067-add-binary](https://github.com/argonchandelier/LeetCode/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/argonchandelier/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/argonchandelier/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/argonchandelier/LeetCode/tree/master/0202-happy-number) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/argonchandelier/LeetCode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/argonchandelier/LeetCode/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/argonchandelier/LeetCode/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/argonchandelier/LeetCode/tree/master/0289-game-of-life) |
 ## Sliding Window
@@ -453,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/argonchandelier/LeetCode/tree/master/0067-add-binary) |
 | [0222-count-complete-tree-nodes](https://github.com/argonchandelier/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Graph Theory
 |  |
