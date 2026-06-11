@@ -438,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/argonchandelier/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/argonchandelier/LeetCode/tree/master/0148-sort-list) |
+| [0190-reverse-bits](https://github.com/argonchandelier/LeetCode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/argonchandelier/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0772-construct-quad-tree](https://github.com/argonchandelier/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/argonchandelier/LeetCode/tree/master/0067-add-binary) |
+| [0190-reverse-bits](https://github.com/argonchandelier/LeetCode/tree/master/0190-reverse-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/argonchandelier/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Graph Theory
 |  |
