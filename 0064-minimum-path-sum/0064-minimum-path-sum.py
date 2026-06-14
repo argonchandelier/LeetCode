@@ -7,7 +7,12 @@ class Solution:
                 over = i-m+1
                 i, j = m-1, over
             while i >= 0 and j < n:
-                grid[i][j] += min((grid[i][j-1] if j > 0 else float('inf')), (grid[i-1][j] if i > 0 else float('inf')))
+                if i == 0:
+                    grid[i][j] += grid[i][j-1]
+                elif j == 0:
+                    grid[i][j] += grid[i-1][j]
+                else:
+                    grid[i][j] += min(grid[i][j-1], grid[i-1][j])
                 i -= 1
                 j += 1
         return grid[-1][-1]
