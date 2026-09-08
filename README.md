@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
 | [4139-minimum-absolute-distance-between-mirror-pairs](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/4139-minimum-absolute-distance-between-mirror-pairs) |
+| [4285-smallest-stable-index-ii](https://github.com/argonchandelier/LeetCode/tree/master/4285-smallest-stable-index-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/argonchandelier/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/argonchandelier/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [4285-smallest-stable-index-ii](https://github.com/argonchandelier/LeetCode/tree/master/4285-smallest-stable-index-ii) |
 ## Stack
 |  |
 | ------- |
