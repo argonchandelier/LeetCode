@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/argonchandelier/LeetCode/tree/master/0433-minimum-genetic-mutation) |
+| [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 ## Binary Search
 |  |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/argonchandelier/LeetCode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0392-is-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 ## Greedy
 |  |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/argonchandelier/LeetCode/tree/master/0134-gas-station) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/argonchandelier/LeetCode/tree/master/0502-ipo) |
+| [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
 ## Counting Sort
 |  |
 | ------- |
@@ -297,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/argonchandelier/LeetCode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/argonchandelier/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/argonchandelier/LeetCode/tree/master/0224-basic-calculator) |
+| [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -579,4 +583,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/argonchandelier/LeetCode/tree/master/0139-word-break) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
