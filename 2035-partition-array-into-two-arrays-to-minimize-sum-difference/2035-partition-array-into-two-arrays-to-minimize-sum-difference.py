@@ -11,27 +11,16 @@ class Solution:
         left_sums = self.calculate_subset_sums(left)
         right_sums = self.calculate_subset_sums(right)
 
-        # Step 3: Sort right_sums for binary search efficiency
-        '''
-        right_sums.sort()
-
-        # Step 4: Find minimum absolute difference
-        min_diff = self.find_min_diff(left_sums, right_sums, sum(nums))
-        return min_diff
-        '''        
-        for group in right_sums:
-            group.sort()
-
+        ###
         min_diff = float('inf')
         total_sum = sum(nums)
 
-        for k in range(n + 1):
-            a = left_sums[k]
-            b = right_sums[n - k]
-            min_diff = min(min_diff, self.find_min_diff(a, b, total_sum))
-
-        return min_diff
+        for k in range(n+1):
+            ls = left_sums[k]
+            rs = right_sums[n-k]
+            min_diff = min(min_diff, self.find_min_diff(ls, rs, total_sum))
         
+        return min_diff
 
     def calculate_subset_sums(self, arr: List[int]) -> List[int]:
         """
@@ -46,14 +35,13 @@ class Solution:
         # Your code for calculating subset sums starts here
         n = len(arr)
         sums = [set() for _ in range(n + 1)]
-        sums[0].add(0)
-
+        sums[0] = {0}
         for x in arr:
             for k in range(n, 0, -1):
-                for s in sums[k - 1]:
+                for s in sums[k-1]:
                     sums[k].add(s + x)
-
-        return [list(group) for group in sums]
+        
+        return [sorted(list(s)) for s in sums]
 
         # Your code for calculating subset sums ends here
 
@@ -87,3 +75,21 @@ class Solution:
                 min_diff = min(min_diff, abs(total_sum - 2 * (s + right_sums[idx - 1])))
 
         return min_diff
+
+
+if __name__ == "__main__":
+    # Test cases
+    test_cases = [
+        [3, 9, 7, 3],
+        [-36, 36],
+        [2, -1, 0, 4, -2, -9]
+    ]
+
+    # Creating an instance of the Solution class
+    solution = Solution()
+
+    # Running the test cases
+    for i, nums in enumerate(test_cases, 1):
+        print(f"Test case {i}: nums = {nums}")
+        result = solution.minimumDifference(nums)
+        print(f"Minimum possible absolute difference: {result}\n")
