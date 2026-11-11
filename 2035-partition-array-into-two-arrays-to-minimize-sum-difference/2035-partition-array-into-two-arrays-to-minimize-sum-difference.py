@@ -1,56 +1,89 @@
+from typing import List
+import bisect
+
 class Solution:
-    def minimumDifference(self, nums: list[int]) -> int:
-        l = len(nums)
-        l2 = l // 2
-        ns1, ns2 = nums[:l2], nums[l2:]
-        #sums1, sums2 = [set() for _ in range(l2)], [set() for _ in range(l2)]
-        #sums1[0], sums2[0] = set(ns1), set(ns2)
-        self.target = sum(nums) / 2
+    def minimumDifference(self, nums: List[int]) -> int:
+        # Step 1: Split nums into two halves
+        n = len(nums) // 2
+        left, right = nums[:n], nums[n:]
 
-        def get_sums(array):
-            res = [set() for _ in range(l2+1)]
-            res[0].add(0)
-            for x in array:
-                for k in range(l2, 0, -1):
-                    for n in res[k-1]:
-                        res[k].add(n + x)
-            
-            return [sorted(list(x)) for x in res[1:]]
+        # Step 2: Calculate all subset sums for each half
+        left_sums = self.calculate_subset_sums(left)
+        right_sums = self.calculate_subset_sums(right)
 
-        sums1, sums2 = get_sums(ns1), get_sums(ns2)
-        self.best = abs(sums1[-1][0] - self.target) #float('inf')
-        #print(sums1, sums2, self.best, f"{self.target=}")
+        # Step 3: Sort right_sums for binary search efficiency
+        '''
+        right_sums.sort()
 
-        def smallest_diff(a1, a2):
-            p2t = len(a2)-1
-            for v in a1:
-                t = self.target - v
-                p1, p2 = 0, p2t
-                while p1 < p2-1:
-                    pm = (p1 + p2) // 2
-                    nm = a2[pm]
-                    if nm < t:
-                        p1 = pm
-                    elif nm > t:
-                        p2 = pm
-                    else:
-                        self.best = 0
-                        return
-                n1, n2 = a2[p1], a2[p2]
-                d1, d2 = abs(t-n1), abs(t-n2)
-                #print(a1, a2, t, n1, n2, d1, d2)
-                if d1 <= d2:
-                    self.best = min(d1, self.best)
-                    p2t = p1
-                else:
-                    self.best = min(d2, self.best)
-                    p2t = p2
+        # Step 4: Find minimum absolute difference
+        min_diff = self.find_min_diff(left_sums, right_sums, sum(nums))
+        return min_diff
+        '''        
+        for group in right_sums:
+            group.sort()
 
-        for k in range(l2-1):
-            ar1, ar2 = sums1[k], sums2[-k-2]
-            smallest_diff(ar1, ar2)
-            if self.best == 0:
-                return 0
+        min_diff = float('inf')
+        total_sum = sum(nums)
+
+        for k in range(n + 1):
+            a = left_sums[k]
+            b = right_sums[n - k]
+            min_diff = min(min_diff, self.find_min_diff(a, b, total_sum))
+
+        return min_diff
         
-        return int(self.best*2)
 
+    def calculate_subset_sums(self, arr: List[int]) -> List[int]:
+        """
+        Calculate all possible subset sums for a given list.
+
+        Args:
+            arr (List[int]): The list of integers for which subset sums are calculated.
+
+        Returns:
+            List[int]: A list of all subset sums of the input list.
+        """
+        # Your code for calculating subset sums starts here
+        n = len(arr)
+        sums = [set() for _ in range(n + 1)]
+        sums[0].add(0)
+
+        for x in arr:
+            for k in range(n, 0, -1):
+                for s in sums[k - 1]:
+                    sums[k].add(s + x)
+
+        return [list(group) for group in sums]
+
+        # Your code for calculating subset sums ends here
+
+    def find_min_diff(self, left_sums: List[int], right_sums: List[int], total_sum: int) -> int:
+        """
+        Find the minimum possible absolute difference between the sums of two partitions.
+
+        Args:
+            left_sums (List[int]): List of subset sums from the first half of nums.
+            right_sums (List[int]): Sorted list of subset sums from the second half of nums.
+            total_sum (int): The sum of all elements in nums.
+
+        Returns:
+            int: The minimum possible absolute difference.
+        """
+        min_diff = float('inf')
+
+        # Iterate over all subset sums from the left half
+        for s in left_sums:
+            # Target sum to achieve minimal difference
+            target = total_sum // 2 - s
+
+            # Binary search to find the closest sum in right_sums to 'target'
+            idx = bisect.bisect_left(right_sums, target)
+
+            # Check two closest values to minimize the difference
+            if idx < len(right_sums):
+                min_diff = min(min_diff, abs(total_sum - 2 * (s + right_sums[idx])))
+
+            if idx > 0:
+                min_diff = min(min_diff, abs(total_sum - 2 * (s + right_sums[idx - 1])))
+
+        return min_diff
