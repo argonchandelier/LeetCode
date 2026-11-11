@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/argonchandelier/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1975-minimum-distance-to-the-target-element](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/1975-minimum-distance-to-the-target-element) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2598-shortest-distance-to-target-string-in-a-circular-array](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/2598-shortest-distance-to-target-string-in-a-circular-array) |
 | [3750-closest-equal-element-queries](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/3750-closest-equal-element-queries) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/argonchandelier/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/argonchandelier/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/argonchandelier/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0300-longest-increasing-subsequence) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3750-closest-equal-element-queries](https://github.com/argonchandelier/LeetCode-Auto-Submit/tree/master/3750-closest-equal-element-queries) |
 ## Math
 |  |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/argonchandelier/LeetCode/tree/master/0202-happy-number) |
 | [0295-find-median-from-data-stream](https://github.com/argonchandelier/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0392-is-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0392-is-subsequence) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Sorting
 |  |
 | ------- |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/argonchandelier/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/argonchandelier/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/argonchandelier/LeetCode/tree/master/0502-ipo) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -254,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/argonchandelier/LeetCode/tree/master/0392-is-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0954-maximum-sum-circular-subarray](https://github.com/argonchandelier/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Greedy
 |  |
 | ------- |
@@ -519,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/argonchandelier/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/argonchandelier/LeetCode/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0222-count-complete-tree-nodes](https://github.com/argonchandelier/LeetCode/tree/master/0222-count-complete-tree-nodes) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Graph Theory
 |  |
 | ------- |
@@ -587,4 +593,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/argonchandelier/LeetCode/tree/master/0678-valid-parenthesis-string) |
+## Meet in the Middle
+|  |
+| ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Ordered Set
+|  |
+| ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Bitmask
+|  |
+| ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/argonchandelier/LeetCode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 <!---LeetCode Topics End-->
